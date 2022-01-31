@@ -1,0 +1,53 @@
+h1 {
+  font-family: 'Signika', sans-serif;
+  color: #687477;
+  font-size: 6rem;
+}
+h3 {
+  color: #403234;
+  font-size: 2rem;
+  font-family: 'Signika', sans-serif;
+}
+body {
+  background-color: #E2C2B3;
+}
+html{
+  height:100%
+}
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+a:link {
+  color: #403234;
+  font-family: 'Signika', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #F7F3F5;
+  font-family: 'Signika', sans-serif;
+  text-decoration: none;
+}
+a:visited {
+  color: #403234;
+  font-family: 'Signika', sans-serif;
+}
+
+.col {
+  float: left;
+  width: 50%
+}
+@media screen and (max-width: 538px) {
+  .col {
+    margin-bottom: 50px;
+    width: 100%
+  }
+  header {
+    width: 328vw;
+  }
+}
