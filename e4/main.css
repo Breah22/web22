@@ -1,35 +1,54 @@
 body {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    background:url(../images/flowers.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-color: crimson;
+  margin: 0;
+  font-size: 32px;
+  font-family: 'Nothing You Could Do', cursive;
 }
-
-.center {
-    padding-top: 200px;
+p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: pink;
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;
 }
-
-h1 {
-    font-size: 40px;
+.bigger {
+  font-size: 2.5em;
+  padding-top: .2em;
 }
-
-.small {
-    display: none;
+div {
+  margin-top: 40vh;
+}
+.mobile-only {
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        background-image: none;
-    }
-
-    .large {
-        display: none;
-    }
-
-    .small {
-        display: block;
-    }
+  body {
+    background-color: pink;
+  }
+  p {
+    color: crimson;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
 }
+
+/* @media only screen and (min-width: 768px) {
+  body {
+    background-color: pink;
+  }
+  p {
+    color: crimson;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+} */
